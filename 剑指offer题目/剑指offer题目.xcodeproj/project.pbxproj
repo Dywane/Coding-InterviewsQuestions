@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B076416206374340007D6B0 /* 2DArraySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B076415206374340007D6B0 /* 2DArraySearch.m */; };
+		5B07641920637D400007D6B0 /* PrintListReversingly.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B07641820637D400007D6B0 /* PrintListReversingly.m */; };
+		5B07641E20637D730007D6B0 /* LinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B07641D20637D730007D6B0 /* LinkList.m */; };
 		5B893531206369E000A54952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B893530206369E000A54952 /* main.m */; };
 		5B893539206369ED00A54952 /* Singletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B893538206369ED00A54952 /* Singletion.m */; };
 		5B89353C20636C6400A54952 /* duplicateNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B89353B20636C6400A54952 /* duplicateNumber.m */; };
@@ -25,6 +28,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B076414206374340007D6B0 /* 2DArraySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 2DArraySearch.h; sourceTree = "<group>"; };
+		5B076415206374340007D6B0 /* 2DArraySearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = 2DArraySearch.m; sourceTree = "<group>"; };
+		5B07641720637D400007D6B0 /* PrintListReversingly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintListReversingly.h; sourceTree = "<group>"; };
+		5B07641820637D400007D6B0 /* PrintListReversingly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintListReversingly.m; sourceTree = "<group>"; };
+		5B07641C20637D730007D6B0 /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
+		5B07641D20637D730007D6B0 /* LinkList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkList.m; sourceTree = "<group>"; };
 		5B89352D206369E000A54952 /* 剑指offer题目 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指offer题目"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B893530206369E000A54952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B893537206369ED00A54952 /* Singletion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singletion.h; sourceTree = "<group>"; };
@@ -44,6 +53,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B07641A20637D450007D6B0 /* 从尾到头打印链表 */ = {
+			isa = PBXGroup;
+			children = (
+				5B07641720637D400007D6B0 /* PrintListReversingly.h */,
+				5B07641820637D400007D6B0 /* PrintListReversingly.m */,
+			);
+			path = "从尾到头打印链表";
+			sourceTree = "<group>";
+		};
+		5B07641B20637D5A0007D6B0 /* Data Struct */ = {
+			isa = PBXGroup;
+			children = (
+				5B07641C20637D730007D6B0 /* LinkList.h */,
+				5B07641D20637D730007D6B0 /* LinkList.m */,
+			);
+			path = "Data Struct";
+			sourceTree = "<group>";
+		};
+		5B07641F20637DE30007D6B0 /* 题目 */ = {
+			isa = PBXGroup;
+			children = (
+				5B07641A20637D450007D6B0 /* 从尾到头打印链表 */,
+				5BD54C1A2063740A00D8D650 /* 二维数组查找 */,
+				5B89353D2063738E00A54952 /* Singleton */,
+				5B89353E2063739C00A54952 /* duplicateNumber */,
+			);
+			path = "题目";
+			sourceTree = "<group>";
+		};
 		5B893524206369E000A54952 = {
 			isa = PBXGroup;
 			children = (
@@ -63,13 +101,38 @@
 		5B89352F206369E000A54952 /* 剑指offer题目 */ = {
 			isa = PBXGroup;
 			children = (
+				5B07641F20637DE30007D6B0 /* 题目 */,
+				5B07641B20637D5A0007D6B0 /* Data Struct */,
 				5B893530206369E000A54952 /* main.m */,
+			);
+			path = "剑指offer题目";
+			sourceTree = "<group>";
+		};
+		5B89353D2063738E00A54952 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
 				5B893537206369ED00A54952 /* Singletion.h */,
 				5B893538206369ED00A54952 /* Singletion.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		5B89353E2063739C00A54952 /* duplicateNumber */ = {
+			isa = PBXGroup;
+			children = (
 				5B89353A20636C6400A54952 /* duplicateNumber.h */,
 				5B89353B20636C6400A54952 /* duplicateNumber.m */,
 			);
-			path = "剑指offer题目";
+			path = duplicateNumber;
+			sourceTree = "<group>";
+		};
+		5BD54C1A2063740A00D8D650 /* 二维数组查找 */ = {
+			isa = PBXGroup;
+			children = (
+				5B076414206374340007D6B0 /* 2DArraySearch.h */,
+				5B076415206374340007D6B0 /* 2DArraySearch.m */,
+			);
+			path = "二维数组查找";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B893531206369E000A54952 /* main.m in Sources */,
+				5B07641920637D400007D6B0 /* PrintListReversingly.m in Sources */,
+				5B076416206374340007D6B0 /* 2DArraySearch.m in Sources */,
+				5B07641E20637D730007D6B0 /* LinkList.m in Sources */,
 				5B893539206369ED00A54952 /* Singletion.m in Sources */,
 				5B89353C20636C6400A54952 /* duplicateNumber.m in Sources */,
 			);
