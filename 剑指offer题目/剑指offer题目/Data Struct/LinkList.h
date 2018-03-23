@@ -10,7 +10,7 @@
 
 @interface LinkList : NSObject
 
-@property (assign, nonatomic) NSNumber* key;
+@property (assign, nonatomic) NSNumber* value;
 
 @property (strong, nonatomic) LinkList* next;
 

@@ -26,7 +26,7 @@
 
 - (instancetype)initWithKey: (NSNumber *)key {
     if (self = [super init]) {
-        self.key = key;
+        self.value = key;
     }
     return self;
 }

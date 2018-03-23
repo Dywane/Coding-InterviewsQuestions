@@ -21,9 +21,14 @@
 		5B0764372064E8220007D6B0 /* duplicateNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B89353B20636C6400A54952 /* duplicateNumber.m */; };
 		5B0764382064E8220007D6B0 /* LinkList.h in Sources */ = {isa = PBXBuildFile; fileRef = 5B07641C20637D730007D6B0 /* LinkList.h */; };
 		5B0764392064E8220007D6B0 /* LinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B07641D20637D730007D6B0 /* LinkList.m */; };
+		5B0764412064E9340007D6B0 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0764402064E9340007D6B0 /* BinaryTree.m */; };
+		5B0764422064E9340007D6B0 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0764402064E9340007D6B0 /* BinaryTree.m */; };
 		5B893531206369E000A54952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B893530206369E000A54952 /* main.m */; };
 		5B893539206369ED00A54952 /* Singletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B893538206369ED00A54952 /* Singletion.m */; };
 		5B89353C20636C6400A54952 /* duplicateNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B89353B20636C6400A54952 /* duplicateNumber.m */; };
+		5BC3E6E12064E9C200E70862 /* RebuildBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6E02064E9C200E70862 /* RebuildBinaryTree.m */; };
+		5BC3E6E22064E9C200E70862 /* RebuildBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6E02064E9C200E70862 /* RebuildBinaryTree.m */; };
+		5BC3E6E42064FD8900E70862 /* TestRebuildBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6E32064FD8900E70862 /* TestRebuildBinaryTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,12 +53,17 @@
 		5B0764262064E64E0007D6B0 /* 剑指Offer题目测试.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "剑指Offer题目测试.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B07642A2064E64E0007D6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B07642E2064E6B30007D6B0 /* TestPrintListReversingly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPrintListReversingly.m; sourceTree = "<group>"; };
+		5B07643F2064E9340007D6B0 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		5B0764402064E9340007D6B0 /* BinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
 		5B89352D206369E000A54952 /* 剑指offer题目 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指offer题目"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B893530206369E000A54952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B893537206369ED00A54952 /* Singletion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singletion.h; sourceTree = "<group>"; };
 		5B893538206369ED00A54952 /* Singletion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singletion.m; sourceTree = "<group>"; };
 		5B89353A20636C6400A54952 /* duplicateNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = duplicateNumber.h; sourceTree = "<group>"; };
 		5B89353B20636C6400A54952 /* duplicateNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = duplicateNumber.m; sourceTree = "<group>"; };
+		5BC3E6DF2064E9C200E70862 /* RebuildBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RebuildBinaryTree.h; sourceTree = "<group>"; };
+		5BC3E6E02064E9C200E70862 /* RebuildBinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RebuildBinaryTree.m; sourceTree = "<group>"; };
+		5BC3E6E32064FD8900E70862 /* TestRebuildBinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRebuildBinaryTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,8 @@
 			children = (
 				5B07641C20637D730007D6B0 /* LinkList.h */,
 				5B07641D20637D730007D6B0 /* LinkList.m */,
+				5B07643F2064E9340007D6B0 /* BinaryTree.h */,
+				5B0764402064E9340007D6B0 /* BinaryTree.m */,
 			);
 			path = "Data Struct";
 			sourceTree = "<group>";
@@ -95,6 +107,7 @@
 		5B07641F20637DE30007D6B0 /* 题目 */ = {
 			isa = PBXGroup;
 			children = (
+				5B07643A2064E8950007D6B0 /* RebuildBinaryTree */,
 				5B07641A20637D450007D6B0 /* 从尾到头打印链表 */,
 				5BD54C1A2063740A00D8D650 /* 二维数组查找 */,
 				5B89353D2063738E00A54952 /* Singleton */,
@@ -107,9 +120,19 @@
 			isa = PBXGroup;
 			children = (
 				5B07642A2064E64E0007D6B0 /* Info.plist */,
+				5BC3E6E32064FD8900E70862 /* TestRebuildBinaryTree.m */,
 				5B07642E2064E6B30007D6B0 /* TestPrintListReversingly.m */,
 			);
 			path = "剑指Offer题目测试";
+			sourceTree = "<group>";
+		};
+		5B07643A2064E8950007D6B0 /* RebuildBinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				5BC3E6DF2064E9C200E70862 /* RebuildBinaryTree.h */,
+				5BC3E6E02064E9C200E70862 /* RebuildBinaryTree.m */,
+			);
+			path = RebuildBinaryTree;
 			sourceTree = "<group>";
 		};
 		5B893524206369E000A54952 = {
@@ -258,8 +281,11 @@
 			files = (
 				5B0764302064E8220007D6B0 /* PrintListReversingly.h in Sources */,
 				5B0764312064E8220007D6B0 /* PrintListReversingly.m in Sources */,
+				5BC3E6E22064E9C200E70862 /* RebuildBinaryTree.m in Sources */,
 				5B0764322064E8220007D6B0 /* 2DArraySearch.h in Sources */,
+				5BC3E6E42064FD8900E70862 /* TestRebuildBinaryTree.m in Sources */,
 				5B0764332064E8220007D6B0 /* 2DArraySearch.m in Sources */,
+				5B0764422064E9340007D6B0 /* BinaryTree.m in Sources */,
 				5B0764342064E8220007D6B0 /* Singletion.h in Sources */,
 				5B0764352064E8220007D6B0 /* Singletion.m in Sources */,
 				5B0764362064E8220007D6B0 /* duplicateNumber.h in Sources */,
@@ -276,9 +302,11 @@
 			files = (
 				5B893531206369E000A54952 /* main.m in Sources */,
 				5B07641920637D400007D6B0 /* PrintListReversingly.m in Sources */,
+				5BC3E6E12064E9C200E70862 /* RebuildBinaryTree.m in Sources */,
 				5B076416206374340007D6B0 /* 2DArraySearch.m in Sources */,
 				5B07641E20637D730007D6B0 /* LinkList.m in Sources */,
 				5B893539206369ED00A54952 /* Singletion.m in Sources */,
+				5B0764412064E9340007D6B0 /* BinaryTree.m in Sources */,
 				5B89353C20636C6400A54952 /* duplicateNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

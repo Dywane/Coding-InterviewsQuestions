@@ -27,7 +27,7 @@
     if(listHead.next != nil) {  //递归调用，输出下一个节点
         [self printListReversingly_Recursively:listHead.next];
     }
-    NSLog(@"%@", listHead.key);
+    NSLog(@"%@", listHead.value);
 }
 
 @end

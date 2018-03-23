@@ -1,5 +1,5 @@
 //
-//  TestPrintListReversingly.m
+//  TestRebuildBinaryTree.m
 //  剑指Offer题目测试
 //
 //  Created by duwei on 2018/3/23.
@@ -7,24 +7,24 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "PrintListReversingly.h"
-#import "LinkList.h"
+#import "RebuildBinaryTree.h"
+#import "BinaryTree.h"
 
-@interface TestPrintListReversingly : XCTestCase
+@interface TestRebuildBinaryTree : XCTestCase
 
-@property (strong, nonatomic) LinkList* list;
+@property (copy, nonatomic) NSArray<NSNumber *> *inorder;
+@property (copy, nonatomic) NSArray<NSNumber *> *preorder;
 
 @end
 
-@implementation TestPrintListReversingly
+@implementation TestRebuildBinaryTree
 
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
     
-    NSArray<NSNumber *> *numberArray = [NSArray arrayWithObjects:@1, @2, @3, @4, @10, @100, nil];
-    _list = [LinkList listWithArray:numberArray];
-    XCTAssertNotNil(_list);
+    _inorder = [NSArray arrayWithObjects:@4, @7, @2, @1, @5, @3, @8, @6, nil];
+    _preorder = [NSArray arrayWithObjects:@1, @2, @4, @7, @3, @5, @6, @8, nil];
 }
 
 - (void)tearDown {
@@ -35,8 +35,11 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    
-    [PrintListReversingly printListReversingly_Recursively:_list];
+    BinaryTree *tree = [RebuildBinaryTree rebuildBinaryTreeWithPreorderSequence:_preorder inorderSequence:_inorder];
+    NSLog(@"preorder:");
+    [tree preoderTravesal];
+    NSLog(@"inoreder:");
+    [tree inorderTravesal];
 }
 
 - (void)testPerformanceExample {
