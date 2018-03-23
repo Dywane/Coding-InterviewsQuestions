@@ -10,8 +10,10 @@
 
 @interface LinkList : NSObject
 
-@property (assign, nonatomic) int key;
+@property (assign, nonatomic) NSNumber* key;
 
 @property (strong, nonatomic) LinkList* next;
+
++ (LinkList *) listWithArray: (NSArray<NSNumber *> *)numberArray;
 
 @end

@@ -17,17 +17,17 @@
 
 /*
  利用递归实现
- 1.每访问一个节点，先递归输出它后面的节点，再输出该节点自身
+ 每访问一个节点，先递归输出它后面的节点，再输出该节点自身
  */
 
-- (void) printListReversingly_Recursively: (LinkList *)listHead {
++ (void) printListReversingly_Recursively: (LinkList *)listHead {
     if(listHead == nil) {
         return;
     }
-    if(listHead.next != nil) {
+    if(listHead.next != nil) {  //递归调用，输出下一个节点
         [self printListReversingly_Recursively:listHead.next];
     }
-    NSLog(@"%d", listHead.key);
+    NSLog(@"%@", listHead.key);
 }
 
 @end

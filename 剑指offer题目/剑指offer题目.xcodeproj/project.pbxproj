@@ -10,6 +10,17 @@
 		5B076416206374340007D6B0 /* 2DArraySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B076415206374340007D6B0 /* 2DArraySearch.m */; };
 		5B07641920637D400007D6B0 /* PrintListReversingly.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B07641820637D400007D6B0 /* PrintListReversingly.m */; };
 		5B07641E20637D730007D6B0 /* LinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B07641D20637D730007D6B0 /* LinkList.m */; };
+		5B07642F2064E6B30007D6B0 /* TestPrintListReversingly.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B07642E2064E6B30007D6B0 /* TestPrintListReversingly.m */; };
+		5B0764302064E8220007D6B0 /* PrintListReversingly.h in Sources */ = {isa = PBXBuildFile; fileRef = 5B07641720637D400007D6B0 /* PrintListReversingly.h */; };
+		5B0764312064E8220007D6B0 /* PrintListReversingly.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B07641820637D400007D6B0 /* PrintListReversingly.m */; };
+		5B0764322064E8220007D6B0 /* 2DArraySearch.h in Sources */ = {isa = PBXBuildFile; fileRef = 5B076414206374340007D6B0 /* 2DArraySearch.h */; };
+		5B0764332064E8220007D6B0 /* 2DArraySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B076415206374340007D6B0 /* 2DArraySearch.m */; };
+		5B0764342064E8220007D6B0 /* Singletion.h in Sources */ = {isa = PBXBuildFile; fileRef = 5B893537206369ED00A54952 /* Singletion.h */; };
+		5B0764352064E8220007D6B0 /* Singletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B893538206369ED00A54952 /* Singletion.m */; };
+		5B0764362064E8220007D6B0 /* duplicateNumber.h in Sources */ = {isa = PBXBuildFile; fileRef = 5B89353A20636C6400A54952 /* duplicateNumber.h */; };
+		5B0764372064E8220007D6B0 /* duplicateNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B89353B20636C6400A54952 /* duplicateNumber.m */; };
+		5B0764382064E8220007D6B0 /* LinkList.h in Sources */ = {isa = PBXBuildFile; fileRef = 5B07641C20637D730007D6B0 /* LinkList.h */; };
+		5B0764392064E8220007D6B0 /* LinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B07641D20637D730007D6B0 /* LinkList.m */; };
 		5B893531206369E000A54952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B893530206369E000A54952 /* main.m */; };
 		5B893539206369ED00A54952 /* Singletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B893538206369ED00A54952 /* Singletion.m */; };
 		5B89353C20636C6400A54952 /* duplicateNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B89353B20636C6400A54952 /* duplicateNumber.m */; };
@@ -34,6 +45,9 @@
 		5B07641820637D400007D6B0 /* PrintListReversingly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintListReversingly.m; sourceTree = "<group>"; };
 		5B07641C20637D730007D6B0 /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
 		5B07641D20637D730007D6B0 /* LinkList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkList.m; sourceTree = "<group>"; };
+		5B0764262064E64E0007D6B0 /* 剑指Offer题目测试.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "剑指Offer题目测试.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B07642A2064E64E0007D6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B07642E2064E6B30007D6B0 /* TestPrintListReversingly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPrintListReversingly.m; sourceTree = "<group>"; };
 		5B89352D206369E000A54952 /* 剑指offer题目 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指offer题目"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B893530206369E000A54952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B893537206369ED00A54952 /* Singletion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singletion.h; sourceTree = "<group>"; };
@@ -43,6 +57,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5B0764232064E64E0007D6B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B89352A206369E000A54952 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,10 +103,20 @@
 			path = "题目";
 			sourceTree = "<group>";
 		};
+		5B0764272064E64E0007D6B0 /* 剑指Offer题目测试 */ = {
+			isa = PBXGroup;
+			children = (
+				5B07642A2064E64E0007D6B0 /* Info.plist */,
+				5B07642E2064E6B30007D6B0 /* TestPrintListReversingly.m */,
+			);
+			path = "剑指Offer题目测试";
+			sourceTree = "<group>";
+		};
 		5B893524206369E000A54952 = {
 			isa = PBXGroup;
 			children = (
 				5B89352F206369E000A54952 /* 剑指offer题目 */,
+				5B0764272064E64E0007D6B0 /* 剑指Offer题目测试 */,
 				5B89352E206369E000A54952 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				5B89352D206369E000A54952 /* 剑指offer题目 */,
+				5B0764262064E64E0007D6B0 /* 剑指Offer题目测试.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,6 +170,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5B0764252064E64E0007D6B0 /* 剑指Offer题目测试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B07642B2064E64E0007D6B0 /* Build configuration list for PBXNativeTarget "剑指Offer题目测试" */;
+			buildPhases = (
+				5B0764222064E64E0007D6B0 /* Sources */,
+				5B0764232064E64E0007D6B0 /* Frameworks */,
+				5B0764242064E64E0007D6B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "剑指Offer题目测试";
+			productName = "剑指Offer题目测试";
+			productReference = 5B0764262064E64E0007D6B0 /* 剑指Offer题目测试.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5B89352C206369E000A54952 /* 剑指offer题目 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B893534206369E000A54952 /* Build configuration list for PBXNativeTarget "剑指offer题目" */;
@@ -164,6 +213,10 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Dywane;
 				TargetAttributes = {
+					5B0764252064E64E0007D6B0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					5B89352C206369E000A54952 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -183,11 +236,40 @@
 			projectRoot = "";
 			targets = (
 				5B89352C206369E000A54952 /* 剑指offer题目 */,
+				5B0764252064E64E0007D6B0 /* 剑指Offer题目测试 */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		5B0764242064E64E0007D6B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		5B0764222064E64E0007D6B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0764302064E8220007D6B0 /* PrintListReversingly.h in Sources */,
+				5B0764312064E8220007D6B0 /* PrintListReversingly.m in Sources */,
+				5B0764322064E8220007D6B0 /* 2DArraySearch.h in Sources */,
+				5B0764332064E8220007D6B0 /* 2DArraySearch.m in Sources */,
+				5B0764342064E8220007D6B0 /* Singletion.h in Sources */,
+				5B0764352064E8220007D6B0 /* Singletion.m in Sources */,
+				5B0764362064E8220007D6B0 /* duplicateNumber.h in Sources */,
+				5B0764372064E8220007D6B0 /* duplicateNumber.m in Sources */,
+				5B0764382064E8220007D6B0 /* LinkList.h in Sources */,
+				5B0764392064E8220007D6B0 /* LinkList.m in Sources */,
+				5B07642F2064E6B30007D6B0 /* TestPrintListReversingly.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5B893529206369E000A54952 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,6 +286,32 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		5B07642C2064E64E0007D6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 55F5T35K6E;
+				INFOPLIST_FILE = "剑指Offer题目测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dywane.--Offer----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B07642D2064E64E0007D6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 55F5T35K6E;
+				INFOPLIST_FILE = "剑指Offer题目测试/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dywane.--Offer----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		5B893532206369E000A54952 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -312,6 +420,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55F5T35K6E;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -321,6 +430,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 55F5T35K6E;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -328,6 +438,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5B07642B2064E64E0007D6B0 /* Build configuration list for PBXNativeTarget "剑指Offer题目测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B07642C2064E64E0007D6B0 /* Debug */,
+				5B07642D2064E64E0007D6B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5B893528206369E000A54952 /* Build configuration list for PBXProject "剑指offer题目" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+@class LinkList;
 @interface PrintListReversingly : NSObject
+
++ (void) printListReversingly_Recursively: (LinkList *)listHead;
 
 @end
