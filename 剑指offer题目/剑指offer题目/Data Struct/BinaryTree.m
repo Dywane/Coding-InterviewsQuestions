@@ -18,29 +18,29 @@
     return node;
 }
 
-- (void)preoderTravesal {
+- (void)preoderTravesal_Recursively {
     if(self == nil) {
         return;
     }
     NSLog(@"%@", self.value);
     if(self.left != nil) {
-        [self.left preoderTravesal];
+        [self.left preoderTravesal_Recursively];
     }
     if (self.right != nil) {
-        [self.right preoderTravesal];
+        [self.right preoderTravesal_Recursively];
     }
 }
 
-- (void)inorderTravesal {
+- (void)inorderTravesal_Recursively {
     if(self == nil) {
         return;
     }
     if(self.left != nil) {
-        [self.left inorderTravesal];
+        [self.left inorderTravesal_Recursively];
     }
-    NSLog(@"%@", self.value);
+    NSLog(@"%@", self.value); 
     if(self.right != nil) {
-        [self.right inorderTravesal];
+        [self.right inorderTravesal_Recursively];
     }
 }
 

@@ -11,14 +11,13 @@
 @interface BinaryTree : NSObject
 
 @property (strong, nonatomic) NSNumber* value;
-
 @property (strong, nonatomic) BinaryTree* left;
-
 @property (strong, nonatomic) BinaryTree* right;
+
 
 + (BinaryTree *)treeNodeWithNumber: (NSNumber *)number;
 
-- (void)inorderTravesal;
-- (void)preoderTravesal;
+- (void)inorderTravesal_Recursively;
+- (void)preoderTravesal_Recursively;
 
 @end

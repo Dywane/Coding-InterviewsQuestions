@@ -29,6 +29,15 @@
 		5BC3E6E12064E9C200E70862 /* RebuildBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6E02064E9C200E70862 /* RebuildBinaryTree.m */; };
 		5BC3E6E22064E9C200E70862 /* RebuildBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6E02064E9C200E70862 /* RebuildBinaryTree.m */; };
 		5BC3E6E42064FD8900E70862 /* TestRebuildBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6E32064FD8900E70862 /* TestRebuildBinaryTree.m */; };
+		5BC3E6E72065027300E70862 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6E62065027300E70862 /* Stack.m */; };
+		5BC3E6E82065027300E70862 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6E62065027300E70862 /* Stack.m */; };
+		5BC3E6EC20662A5900E70862 /* TwoStackQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6EB20662A5900E70862 /* TwoStackQueue.m */; };
+		5BC3E6EE20662E0A00E70862 /* TestTwoStackQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6ED20662E0A00E70862 /* TestTwoStackQueue.m */; };
+		5BC3E6EF20662F5800E70862 /* TwoStackQueue.h in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6EA20662A5900E70862 /* TwoStackQueue.h */; };
+		5BC3E6F020662F5800E70862 /* TwoStackQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6EB20662A5900E70862 /* TwoStackQueue.m */; };
+		5BC3E6F120662F5800E70862 /* RebuildBinaryTree.h in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6DF2064E9C200E70862 /* RebuildBinaryTree.h */; };
+		5BC3E6F220662F5800E70862 /* BinaryTree.h in Sources */ = {isa = PBXBuildFile; fileRef = 5B07643F2064E9340007D6B0 /* BinaryTree.h */; };
+		5BC3E6F320662F5800E70862 /* Stack.h in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6E52065027300E70862 /* Stack.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +73,11 @@
 		5BC3E6DF2064E9C200E70862 /* RebuildBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RebuildBinaryTree.h; sourceTree = "<group>"; };
 		5BC3E6E02064E9C200E70862 /* RebuildBinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RebuildBinaryTree.m; sourceTree = "<group>"; };
 		5BC3E6E32064FD8900E70862 /* TestRebuildBinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRebuildBinaryTree.m; sourceTree = "<group>"; };
+		5BC3E6E52065027300E70862 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		5BC3E6E62065027300E70862 /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		5BC3E6EA20662A5900E70862 /* TwoStackQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoStackQueue.h; sourceTree = "<group>"; };
+		5BC3E6EB20662A5900E70862 /* TwoStackQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoStackQueue.m; sourceTree = "<group>"; };
+		5BC3E6ED20662E0A00E70862 /* TestTwoStackQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTwoStackQueue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,8 @@
 				5B07641D20637D730007D6B0 /* LinkList.m */,
 				5B07643F2064E9340007D6B0 /* BinaryTree.h */,
 				5B0764402064E9340007D6B0 /* BinaryTree.m */,
+				5BC3E6E52065027300E70862 /* Stack.h */,
+				5BC3E6E62065027300E70862 /* Stack.m */,
 			);
 			path = "Data Struct";
 			sourceTree = "<group>";
@@ -107,6 +123,7 @@
 		5B07641F20637DE30007D6B0 /* 题目 */ = {
 			isa = PBXGroup;
 			children = (
+				5BC3E6E920662A2300E70862 /* TwoStackToQueue */,
 				5B07643A2064E8950007D6B0 /* RebuildBinaryTree */,
 				5B07641A20637D450007D6B0 /* 从尾到头打印链表 */,
 				5BD54C1A2063740A00D8D650 /* 二维数组查找 */,
@@ -122,6 +139,7 @@
 				5B07642A2064E64E0007D6B0 /* Info.plist */,
 				5BC3E6E32064FD8900E70862 /* TestRebuildBinaryTree.m */,
 				5B07642E2064E6B30007D6B0 /* TestPrintListReversingly.m */,
+				5BC3E6ED20662E0A00E70862 /* TestTwoStackQueue.m */,
 			);
 			path = "剑指Offer题目测试";
 			sourceTree = "<group>";
@@ -179,6 +197,15 @@
 				5B89353B20636C6400A54952 /* duplicateNumber.m */,
 			);
 			path = duplicateNumber;
+			sourceTree = "<group>";
+		};
+		5BC3E6E920662A2300E70862 /* TwoStackToQueue */ = {
+			isa = PBXGroup;
+			children = (
+				5BC3E6EA20662A5900E70862 /* TwoStackQueue.h */,
+				5BC3E6EB20662A5900E70862 /* TwoStackQueue.m */,
+			);
+			path = TwoStackToQueue;
 			sourceTree = "<group>";
 		};
 		5BD54C1A2063740A00D8D650 /* 二维数组查找 */ = {
@@ -279,9 +306,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC3E6EF20662F5800E70862 /* TwoStackQueue.h in Sources */,
+				5BC3E6F020662F5800E70862 /* TwoStackQueue.m in Sources */,
+				5BC3E6F120662F5800E70862 /* RebuildBinaryTree.h in Sources */,
+				5BC3E6F220662F5800E70862 /* BinaryTree.h in Sources */,
+				5BC3E6F320662F5800E70862 /* Stack.h in Sources */,
 				5B0764302064E8220007D6B0 /* PrintListReversingly.h in Sources */,
 				5B0764312064E8220007D6B0 /* PrintListReversingly.m in Sources */,
 				5BC3E6E22064E9C200E70862 /* RebuildBinaryTree.m in Sources */,
+				5BC3E6EE20662E0A00E70862 /* TestTwoStackQueue.m in Sources */,
+				5BC3E6E82065027300E70862 /* Stack.m in Sources */,
 				5B0764322064E8220007D6B0 /* 2DArraySearch.h in Sources */,
 				5BC3E6E42064FD8900E70862 /* TestRebuildBinaryTree.m in Sources */,
 				5B0764332064E8220007D6B0 /* 2DArraySearch.m in Sources */,
@@ -300,6 +334,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC3E6E72065027300E70862 /* Stack.m in Sources */,
+				5BC3E6EC20662A5900E70862 /* TwoStackQueue.m in Sources */,
 				5B893531206369E000A54952 /* main.m in Sources */,
 				5B07641920637D400007D6B0 /* PrintListReversingly.m in Sources */,
 				5BC3E6E12064E9C200E70862 /* RebuildBinaryTree.m in Sources */,

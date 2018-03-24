@@ -37,8 +37,8 @@
     NSNumber *rootValue = preorderSequence.firstObject;
     BinaryTree *rootNode = [BinaryTree treeNodeWithNumber:rootValue];
     
-    if ([preorderSequence.firstObject isEqualToNumber:preorderSequence.lastObject]) {
-        if([inorderSequence.firstObject isEqualToNumber:inorderSequence.lastObject]) {
+    if (preorderSequence.count == 1) {
+        if(inorderSequence.count == 1) {
             return rootNode;
         } else {
             NSLog(@"invalid input");

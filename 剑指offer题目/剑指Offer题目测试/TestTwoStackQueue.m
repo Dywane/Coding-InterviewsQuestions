@@ -1,30 +1,26 @@
 //
-//  TestRebuildBinaryTree.m
+//  TestTwoStackQueue.m
 //  剑指Offer题目测试
 //
-//  Created by duwei on 2018/3/23.
+//  Created by duwei on 2018/3/24.
 //  Copyright © 2018年 Dywane. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "RebuildBinaryTree.h"
-#import "BinaryTree.h"
+#import "TwoStackQueue.h"
 
-@interface TestRebuildBinaryTree : XCTestCase
+@interface TestTwoStackQueue : XCTestCase
 
-@property (copy, nonatomic) NSArray<NSNumber *> *inorder;
-@property (copy, nonatomic) NSArray<NSNumber *> *preorder;
+@property (strong, nonatomic) TwoStackQueue* queue;
 
 @end
 
-@implementation TestRebuildBinaryTree
+@implementation TestTwoStackQueue
 
 - (void)setUp {
     [super setUp];
+    _queue = [[TwoStackQueue alloc] init];
     // Put setup code here. This method is called before the invocation of each test method in the class.
-    
-    _preorder = [NSArray arrayWithObjects:@1, @2, @4, @7, @3, @5, @6, @8, nil];
-    _inorder = [NSArray arrayWithObjects:@4, @7, @2, @1, @5, @3, @8, @6, nil];
 }
 
 - (void)tearDown {
@@ -35,11 +31,20 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    BinaryTree *tree = [RebuildBinaryTree rebuildBinaryTreeWithPreorderSequence:_preorder inorderSequence:_inorder];
-    NSLog(@"preorder:");
-    [tree preoderTravesal_Recursively];
-    NSLog(@"inoreder:");
-    [tree inorderTravesal_Recursively];
+    [_queue appendTail:@1];
+    XCTAssertEqualObjects(@1, [_queue deleteHead]);
+    
+    [_queue appendTail:@2];
+    [_queue appendTail:@4];
+    [_queue appendTail:@10];
+    [_queue appendTail:@3];
+    XCTAssertEqualObjects(@2, [_queue deleteHead]);
+    
+    [_queue appendTail:@5];
+    XCTAssertEqualObjects(@4, [_queue deleteHead]);
+    XCTAssertEqualObjects(@10, [_queue deleteHead]);
+    XCTAssertEqualObjects(@3, [_queue deleteHead]);
+    XCTAssertEqualObjects(@5, [_queue deleteHead]);
 }
 
 - (void)testPerformanceExample {
