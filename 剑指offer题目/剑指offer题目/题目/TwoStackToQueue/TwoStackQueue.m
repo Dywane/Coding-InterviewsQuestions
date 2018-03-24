@@ -52,6 +52,7 @@
     
     if(_stack2.isEmpty) {
         NSLog(@"queue is empty");
+        return nil;
     }
     
     return [_stack2 pop];

@@ -27,7 +27,7 @@
     if([self isEmpty]) {
         return nil;
     }
-    NSNumber *last = _stackArray.lastObject;
+    NSNumber *last = self.top;
     [_stackArray removeLastObject];
     return last;
 }
@@ -36,15 +36,15 @@
     [_stackArray addObject:value];
 }
 
-- (BOOL)isEmpty {
-    return !_stackArray.count;
-}
-
-
 #pragma mark - setter getter
 - (NSNumber *)top {
     return _stackArray.lastObject;
 }
+
+- (BOOL)isEmpty {
+    return !_stackArray.count;
+}
+
 
 - (NSUInteger)stackLength {
     return  _stackArray.count;

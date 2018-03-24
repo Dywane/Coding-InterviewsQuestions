@@ -1,5 +1,5 @@
 //
-//  TestTwoStackQueue.m
+//  TestTwoQueueStack.m
 //  剑指Offer题目测试
 //
 //  Created by duwei on 2018/3/24.
@@ -7,19 +7,19 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "TwoStackQueue.h"
+#import "TwoQueueStack.h"
 
-@interface TestTwoStackQueue : XCTestCase
+@interface TestTwoQueueStack : XCTestCase
 
-@property (strong, nonatomic) TwoStackQueue* queue;
+@property (strong, nonatomic) TwoQueueStack *stack;
 
 @end
 
-@implementation TestTwoStackQueue
+@implementation TestTwoQueueStack
 
 - (void)setUp {
     [super setUp];
-    _queue = [[TwoStackQueue alloc] init];
+    _stack = [[TwoQueueStack alloc] init];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
@@ -31,22 +31,18 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    [_queue appendTail:@1];
-    XCTAssertEqualObjects(@1, [_queue deleteHead]);
-    
-    [_queue appendTail:@2];
-    [_queue appendTail:@4];
-    [_queue appendTail:@10];
-    [_queue appendTail:@3];
-    XCTAssertEqualObjects(@2, [_queue deleteHead]);
-    
-    [_queue appendTail:@5];
-    XCTAssertEqualObjects(@4, [_queue deleteHead]);
-    XCTAssertEqualObjects(@10, [_queue deleteHead]);
-    XCTAssertEqualObjects(@3, [_queue deleteHead]);
-    XCTAssertEqualObjects(@5, [_queue deleteHead]);
-    
-    XCTAssertNil([_queue deleteHead]);
+    [_stack push:@1];
+    XCTAssertEqualObjects(@1, [_stack pop]);
+    [_stack push:@2];
+    [_stack push:@3];
+    [_stack push:@10];
+    XCTAssertEqualObjects(@10, [_stack pop]);
+    [_stack push:@5];
+    [_stack push:@4];
+    XCTAssertEqualObjects(@4, [_stack pop]);
+    XCTAssertEqualObjects(@5, [_stack pop]);
+    XCTAssertEqualObjects(@3, [_stack pop]);
+    XCTAssertEqualObjects(@2, [_stack pop]);
 }
 
 - (void)testPerformanceExample {

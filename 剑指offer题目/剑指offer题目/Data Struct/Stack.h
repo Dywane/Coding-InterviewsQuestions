@@ -12,9 +12,9 @@
 
 @property (strong, nonatomic, readonly) NSNumber *top;
 @property (assign, nonatomic, readonly) NSUInteger stackLength;
+@property (assign, nonatomic, readonly) BOOL isEmpty;
 
 - (NSNumber *)pop;
-- (void)push: (NSNumber *)value;
-- (BOOL)isEmpty;
+- (void)push: (NSNumber *)value; 
 
 @end
