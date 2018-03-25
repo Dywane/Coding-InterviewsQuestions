@@ -60,6 +60,9 @@
 		5BD5DC8F2067CA360079CC05 /* FindListKthTail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC8E2067CA360079CC05 /* FindListKthTail.m */; };
 		5BD5DC902067CA400079CC05 /* FindListKthTail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC8E2067CA360079CC05 /* FindListKthTail.m */; };
 		5BD5DC922067CC820079CC05 /* TestFindListKthTail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC912067CC820079CC05 /* TestFindListKthTail.m */; };
+		5BD5DC962067CDD60079CC05 /* FindListMiddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC952067CDD60079CC05 /* FindListMiddleNode.m */; };
+		5BD5DC972067CF9A0079CC05 /* FindListMiddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC952067CDD60079CC05 /* FindListMiddleNode.m */; };
+		5BD5DC992067CFA80079CC05 /* TestFindListMiddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC982067CFA80079CC05 /* TestFindListMiddleNode.m */; };
 		5BFD629E20676F7600B6985D /* MinNumberInRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */; };
 /* End PBXBuildFile section */
 
@@ -119,6 +122,9 @@
 		5BD5DC8D2067CA360079CC05 /* FindListKthTail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindListKthTail.h; sourceTree = "<group>"; };
 		5BD5DC8E2067CA360079CC05 /* FindListKthTail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindListKthTail.m; sourceTree = "<group>"; };
 		5BD5DC912067CC820079CC05 /* TestFindListKthTail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFindListKthTail.m; sourceTree = "<group>"; };
+		5BD5DC942067CDD60079CC05 /* FindListMiddleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindListMiddleNode.h; sourceTree = "<group>"; };
+		5BD5DC952067CDD60079CC05 /* FindListMiddleNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindListMiddleNode.m; sourceTree = "<group>"; };
+		5BD5DC982067CFA80079CC05 /* TestFindListMiddleNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFindListMiddleNode.m; sourceTree = "<group>"; };
 		5BFD629C20676F7600B6985D /* MinNumberInRotatedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinNumberInRotatedArray.h; sourceTree = "<group>"; };
 		5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinNumberInRotatedArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +174,7 @@
 		5B07641F20637DE30007D6B0 /* 题目 */ = {
 			isa = PBXGroup;
 			children = (
+				5BD5DC932067CDBA0079CC05 /* 15.1_FindListMiddleNode */,
 				5BD5DC8A2067C9E50079CC05 /* 15_FindListKthTail */,
 				5BD5DC832067C1FF0079CC05 /* 14_AdjustOddEven */,
 				5BD5DC7820679E360079CC05 /* Power */,
@@ -197,6 +204,7 @@
 				5BD5DC7D2067A0E80079CC05 /* TestPower.m */,
 				5BD5DC882067C5330079CC05 /* TestAdjustOddEven.m */,
 				5BD5DC912067CC820079CC05 /* TestFindListKthTail.m */,
+				5BD5DC982067CFA80079CC05 /* TestFindListMiddleNode.m */,
 			);
 			path = "剑指Offer题目测试";
 			sourceTree = "<group>";
@@ -317,6 +325,15 @@
 				5BD5DC8E2067CA360079CC05 /* FindListKthTail.m */,
 			);
 			path = 15_FindListKthTail;
+			sourceTree = "<group>";
+		};
+		5BD5DC932067CDBA0079CC05 /* 15.1_FindListMiddleNode */ = {
+			isa = PBXGroup;
+			children = (
+				5BD5DC942067CDD60079CC05 /* FindListMiddleNode.h */,
+				5BD5DC952067CDD60079CC05 /* FindListMiddleNode.m */,
+			);
+			path = 15.1_FindListMiddleNode;
 			sourceTree = "<group>";
 		};
 		5BFD629B20676F4C00B6985D /* MinNumberInRotatedArray */ = {
@@ -444,12 +461,14 @@
 				5BC3E6E42064FD8900E70862 /* TestRebuildBinaryTree.m in Sources */,
 				5BD5DC892067C5330079CC05 /* TestAdjustOddEven.m in Sources */,
 				5BD5DC902067CA400079CC05 /* FindListKthTail.m in Sources */,
+				5BD5DC992067CFA80079CC05 /* TestFindListMiddleNode.m in Sources */,
 				5B0764332064E8220007D6B0 /* 2DArraySearch.m in Sources */,
 				5B0764422064E9340007D6B0 /* BinaryTree.m in Sources */,
 				5B0764342064E8220007D6B0 /* Singletion.h in Sources */,
 				5B0764352064E8220007D6B0 /* Singletion.m in Sources */,
 				5B0764362064E8220007D6B0 /* duplicateNumber.h in Sources */,
 				5BD5DC922067CC820079CC05 /* TestFindListKthTail.m in Sources */,
+				5BD5DC972067CF9A0079CC05 /* FindListMiddleNode.m in Sources */,
 				5B0764372064E8220007D6B0 /* duplicateNumber.m in Sources */,
 				5B0764382064E8220007D6B0 /* LinkList.h in Sources */,
 				5B0764392064E8220007D6B0 /* LinkList.m in Sources */,
@@ -470,6 +489,7 @@
 				5B076416206374340007D6B0 /* 2DArraySearch.m in Sources */,
 				5BC3E6FA2066336100E70862 /* TwoQueueStack.m in Sources */,
 				5B07641E20637D730007D6B0 /* LinkList.m in Sources */,
+				5BD5DC962067CDD60079CC05 /* FindListMiddleNode.m in Sources */,
 				5BD5DC7B20679E620079CC05 /* Power.m in Sources */,
 				5BD5DC862067C2210079CC05 /* AdjustOddEven.m in Sources */,
 				5B893539206369ED00A54952 /* Singletion.m in Sources */,
