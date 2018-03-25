@@ -45,6 +45,10 @@
 		5BC3E6FD2066365300E70862 /* Queue.h in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6F4206630EB00E70862 /* Queue.h */; };
 		5BC3E6FE2066365300E70862 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6F5206630EB00E70862 /* Queue.m */; };
 		5BC3E7002066366200E70862 /* TestTwoQueueStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6FF2066366200E70862 /* TestTwoQueueStack.m */; };
+		5BD5DC6D20679B040079CC05 /* TestMinNumberInRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC6C20679B040079CC05 /* TestMinNumberInRotatedArray.m */; };
+		5BD5DC6E20679B100079CC05 /* MinNumberInRotatedArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD629C20676F7600B6985D /* MinNumberInRotatedArray.h */; };
+		5BD5DC6F20679B100079CC05 /* MinNumberInRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */; };
+		5BFD629E20676F7600B6985D /* MinNumberInRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +94,9 @@
 		5BC3E6F82066336100E70862 /* TwoQueueStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoQueueStack.h; sourceTree = "<group>"; };
 		5BC3E6F92066336100E70862 /* TwoQueueStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoQueueStack.m; sourceTree = "<group>"; };
 		5BC3E6FF2066366200E70862 /* TestTwoQueueStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTwoQueueStack.m; sourceTree = "<group>"; };
+		5BD5DC6C20679B040079CC05 /* TestMinNumberInRotatedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMinNumberInRotatedArray.m; sourceTree = "<group>"; };
+		5BFD629C20676F7600B6985D /* MinNumberInRotatedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinNumberInRotatedArray.h; sourceTree = "<group>"; };
+		5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinNumberInRotatedArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +144,7 @@
 		5B07641F20637DE30007D6B0 /* 题目 */ = {
 			isa = PBXGroup;
 			children = (
+				5BFD629B20676F4C00B6985D /* MinNumberInRotatedArray */,
 				5BC3E6F72066335400E70862 /* TwoQueueStack */,
 				5BC3E6E920662A2300E70862 /* TwoStackToQueue */,
 				5B07643A2064E8950007D6B0 /* RebuildBinaryTree */,
@@ -156,6 +164,7 @@
 				5B07642E2064E6B30007D6B0 /* TestPrintListReversingly.m */,
 				5BC3E6ED20662E0A00E70862 /* TestTwoStackQueue.m */,
 				5BC3E6FF2066366200E70862 /* TestTwoQueueStack.m */,
+				5BD5DC6C20679B040079CC05 /* TestMinNumberInRotatedArray.m */,
 			);
 			path = "剑指Offer题目测试";
 			sourceTree = "<group>";
@@ -240,6 +249,15 @@
 				5B076415206374340007D6B0 /* 2DArraySearch.m */,
 			);
 			path = "二维数组查找";
+			sourceTree = "<group>";
+		};
+		5BFD629B20676F4C00B6985D /* MinNumberInRotatedArray */ = {
+			isa = PBXGroup;
+			children = (
+				5BFD629C20676F7600B6985D /* MinNumberInRotatedArray.h */,
+				5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */,
+			);
+			path = MinNumberInRotatedArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,11 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BD5DC6E20679B100079CC05 /* MinNumberInRotatedArray.h in Sources */,
+				5BD5DC6F20679B100079CC05 /* MinNumberInRotatedArray.m in Sources */,
 				5BC3E6FB2066365300E70862 /* TwoQueueStack.h in Sources */,
 				5BC3E6FC2066365300E70862 /* TwoQueueStack.m in Sources */,
 				5BC3E6FD2066365300E70862 /* Queue.h in Sources */,
 				5BC3E6FE2066365300E70862 /* Queue.m in Sources */,
 				5BC3E6EF20662F5800E70862 /* TwoStackQueue.h in Sources */,
+				5BD5DC6D20679B040079CC05 /* TestMinNumberInRotatedArray.m in Sources */,
 				5BC3E6F020662F5800E70862 /* TwoStackQueue.m in Sources */,
 				5BC3E6F120662F5800E70862 /* RebuildBinaryTree.h in Sources */,
 				5BC3E6F220662F5800E70862 /* BinaryTree.h in Sources */,
@@ -374,6 +395,7 @@
 				5BC3E6FA2066336100E70862 /* TwoQueueStack.m in Sources */,
 				5B07641E20637D730007D6B0 /* LinkList.m in Sources */,
 				5B893539206369ED00A54952 /* Singletion.m in Sources */,
+				5BFD629E20676F7600B6985D /* MinNumberInRotatedArray.m in Sources */,
 				5B0764412064E9340007D6B0 /* BinaryTree.m in Sources */,
 				5B89353C20636C6400A54952 /* duplicateNumber.m in Sources */,
 			);
