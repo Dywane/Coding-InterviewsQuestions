@@ -51,6 +51,12 @@
 		5BD5DC7420679D240079CC05 /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC7320679D240079CC05 /* Fibonacci.m */; };
 		5BD5DC7520679D350079CC05 /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC7320679D240079CC05 /* Fibonacci.m */; };
 		5BD5DC7720679D430079CC05 /* TestFibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC7620679D430079CC05 /* TestFibonacci.m */; };
+		5BD5DC7B20679E620079CC05 /* Power.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC7A20679E620079CC05 /* Power.m */; };
+		5BD5DC7C2067A0D80079CC05 /* Power.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC7A20679E620079CC05 /* Power.m */; };
+		5BD5DC7E2067A0E80079CC05 /* TestPower.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC7D2067A0E80079CC05 /* TestPower.m */; };
+		5BD5DC862067C2210079CC05 /* AdjustOddEven.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC852067C2210079CC05 /* AdjustOddEven.m */; };
+		5BD5DC872067C51D0079CC05 /* AdjustOddEven.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC852067C2210079CC05 /* AdjustOddEven.m */; };
+		5BD5DC892067C5330079CC05 /* TestAdjustOddEven.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC882067C5330079CC05 /* TestAdjustOddEven.m */; };
 		5BFD629E20676F7600B6985D /* MinNumberInRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +107,12 @@
 		5BD5DC7220679D240079CC05 /* Fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fibonacci.h; path = Fibonacci/Fibonacci.h; sourceTree = "<group>"; };
 		5BD5DC7320679D240079CC05 /* Fibonacci.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fibonacci.m; path = Fibonacci/Fibonacci.m; sourceTree = "<group>"; };
 		5BD5DC7620679D430079CC05 /* TestFibonacci.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFibonacci.m; sourceTree = "<group>"; };
+		5BD5DC7920679E620079CC05 /* Power.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Power.h; sourceTree = "<group>"; };
+		5BD5DC7A20679E620079CC05 /* Power.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power.m; sourceTree = "<group>"; };
+		5BD5DC7D2067A0E80079CC05 /* TestPower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPower.m; sourceTree = "<group>"; };
+		5BD5DC842067C2210079CC05 /* AdjustOddEven.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdjustOddEven.h; sourceTree = "<group>"; };
+		5BD5DC852067C2210079CC05 /* AdjustOddEven.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustOddEven.m; sourceTree = "<group>"; };
+		5BD5DC882067C5330079CC05 /* TestAdjustOddEven.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAdjustOddEven.m; sourceTree = "<group>"; };
 		5BFD629C20676F7600B6985D /* MinNumberInRotatedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinNumberInRotatedArray.h; sourceTree = "<group>"; };
 		5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinNumberInRotatedArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +162,8 @@
 		5B07641F20637DE30007D6B0 /* 题目 */ = {
 			isa = PBXGroup;
 			children = (
+				5BD5DC832067C1FF0079CC05 /* 14_AdjustOddEven */,
+				5BD5DC7820679E360079CC05 /* Power */,
 				5BD5DC7120679D140079CC05 /* Fibonacci */,
 				5BFD629B20676F4C00B6985D /* MinNumberInRotatedArray */,
 				5BC3E6F72066335400E70862 /* TwoQueueStack */,
@@ -173,6 +187,8 @@
 				5BC3E6FF2066366200E70862 /* TestTwoQueueStack.m */,
 				5BD5DC6C20679B040079CC05 /* TestMinNumberInRotatedArray.m */,
 				5BD5DC7620679D430079CC05 /* TestFibonacci.m */,
+				5BD5DC7D2067A0E80079CC05 /* TestPower.m */,
+				5BD5DC882067C5330079CC05 /* TestAdjustOddEven.m */,
 			);
 			path = "剑指Offer题目测试";
 			sourceTree = "<group>";
@@ -266,6 +282,24 @@
 				5BD5DC7320679D240079CC05 /* Fibonacci.m */,
 			);
 			name = Fibonacci;
+			sourceTree = "<group>";
+		};
+		5BD5DC7820679E360079CC05 /* Power */ = {
+			isa = PBXGroup;
+			children = (
+				5BD5DC7920679E620079CC05 /* Power.h */,
+				5BD5DC7A20679E620079CC05 /* Power.m */,
+			);
+			path = Power;
+			sourceTree = "<group>";
+		};
+		5BD5DC832067C1FF0079CC05 /* 14_AdjustOddEven */ = {
+			isa = PBXGroup;
+			children = (
+				5BD5DC842067C2210079CC05 /* AdjustOddEven.h */,
+				5BD5DC852067C2210079CC05 /* AdjustOddEven.m */,
+			);
+			path = 14_AdjustOddEven;
 			sourceTree = "<group>";
 		};
 		5BFD629B20676F4C00B6985D /* MinNumberInRotatedArray */ = {
@@ -374,6 +408,7 @@
 				5BC3E6FE2066365300E70862 /* Queue.m in Sources */,
 				5BC3E6EF20662F5800E70862 /* TwoStackQueue.h in Sources */,
 				5BD5DC6D20679B040079CC05 /* TestMinNumberInRotatedArray.m in Sources */,
+				5BD5DC7E2067A0E80079CC05 /* TestPower.m in Sources */,
 				5BD5DC7720679D430079CC05 /* TestFibonacci.m in Sources */,
 				5BC3E6F020662F5800E70862 /* TwoStackQueue.m in Sources */,
 				5BC3E6F120662F5800E70862 /* RebuildBinaryTree.h in Sources */,
@@ -381,6 +416,8 @@
 				5BC3E6F320662F5800E70862 /* Stack.h in Sources */,
 				5B0764302064E8220007D6B0 /* PrintListReversingly.h in Sources */,
 				5B0764312064E8220007D6B0 /* PrintListReversingly.m in Sources */,
+				5BD5DC872067C51D0079CC05 /* AdjustOddEven.m in Sources */,
+				5BD5DC7C2067A0D80079CC05 /* Power.m in Sources */,
 				5BC3E6E22064E9C200E70862 /* RebuildBinaryTree.m in Sources */,
 				5BC3E6EE20662E0A00E70862 /* TestTwoStackQueue.m in Sources */,
 				5BD5DC7520679D350079CC05 /* Fibonacci.m in Sources */,
@@ -388,6 +425,7 @@
 				5BC3E6E82065027300E70862 /* Stack.m in Sources */,
 				5B0764322064E8220007D6B0 /* 2DArraySearch.h in Sources */,
 				5BC3E6E42064FD8900E70862 /* TestRebuildBinaryTree.m in Sources */,
+				5BD5DC892067C5330079CC05 /* TestAdjustOddEven.m in Sources */,
 				5B0764332064E8220007D6B0 /* 2DArraySearch.m in Sources */,
 				5B0764422064E9340007D6B0 /* BinaryTree.m in Sources */,
 				5B0764342064E8220007D6B0 /* Singletion.h in Sources */,
@@ -413,6 +451,8 @@
 				5B076416206374340007D6B0 /* 2DArraySearch.m in Sources */,
 				5BC3E6FA2066336100E70862 /* TwoQueueStack.m in Sources */,
 				5B07641E20637D730007D6B0 /* LinkList.m in Sources */,
+				5BD5DC7B20679E620079CC05 /* Power.m in Sources */,
+				5BD5DC862067C2210079CC05 /* AdjustOddEven.m in Sources */,
 				5B893539206369ED00A54952 /* Singletion.m in Sources */,
 				5BD5DC7420679D240079CC05 /* Fibonacci.m in Sources */,
 				5BFD629E20676F7600B6985D /* MinNumberInRotatedArray.m in Sources */,
