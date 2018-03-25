@@ -63,6 +63,9 @@
 		5BD5DC962067CDD60079CC05 /* FindListMiddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC952067CDD60079CC05 /* FindListMiddleNode.m */; };
 		5BD5DC972067CF9A0079CC05 /* FindListMiddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC952067CDD60079CC05 /* FindListMiddleNode.m */; };
 		5BD5DC992067CFA80079CC05 /* TestFindListMiddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC982067CFA80079CC05 /* TestFindListMiddleNode.m */; };
+		5BD5DC9D2067D0A70079CC05 /* ReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC9C2067D0A70079CC05 /* ReverseList.m */; };
+		5BD5DC9E2067D45C0079CC05 /* ReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC9C2067D0A70079CC05 /* ReverseList.m */; };
+		5BD5DCA02067D4670079CC05 /* TestReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC9F2067D4670079CC05 /* TestReverseList.m */; };
 		5BFD629E20676F7600B6985D /* MinNumberInRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */; };
 /* End PBXBuildFile section */
 
@@ -125,6 +128,9 @@
 		5BD5DC942067CDD60079CC05 /* FindListMiddleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindListMiddleNode.h; sourceTree = "<group>"; };
 		5BD5DC952067CDD60079CC05 /* FindListMiddleNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindListMiddleNode.m; sourceTree = "<group>"; };
 		5BD5DC982067CFA80079CC05 /* TestFindListMiddleNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFindListMiddleNode.m; sourceTree = "<group>"; };
+		5BD5DC9B2067D0A70079CC05 /* ReverseList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseList.h; sourceTree = "<group>"; };
+		5BD5DC9C2067D0A70079CC05 /* ReverseList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseList.m; sourceTree = "<group>"; };
+		5BD5DC9F2067D4670079CC05 /* TestReverseList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestReverseList.m; sourceTree = "<group>"; };
 		5BFD629C20676F7600B6985D /* MinNumberInRotatedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinNumberInRotatedArray.h; sourceTree = "<group>"; };
 		5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinNumberInRotatedArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +180,7 @@
 		5B07641F20637DE30007D6B0 /* 题目 */ = {
 			isa = PBXGroup;
 			children = (
+				5BD5DC9A2067D0950079CC05 /* 16_ReverseList */,
 				5BD5DC932067CDBA0079CC05 /* 15.1_FindListMiddleNode */,
 				5BD5DC8A2067C9E50079CC05 /* 15_FindListKthTail */,
 				5BD5DC832067C1FF0079CC05 /* 14_AdjustOddEven */,
@@ -205,6 +212,7 @@
 				5BD5DC882067C5330079CC05 /* TestAdjustOddEven.m */,
 				5BD5DC912067CC820079CC05 /* TestFindListKthTail.m */,
 				5BD5DC982067CFA80079CC05 /* TestFindListMiddleNode.m */,
+				5BD5DC9F2067D4670079CC05 /* TestReverseList.m */,
 			);
 			path = "剑指Offer题目测试";
 			sourceTree = "<group>";
@@ -336,6 +344,15 @@
 			path = 15.1_FindListMiddleNode;
 			sourceTree = "<group>";
 		};
+		5BD5DC9A2067D0950079CC05 /* 16_ReverseList */ = {
+			isa = PBXGroup;
+			children = (
+				5BD5DC9B2067D0A70079CC05 /* ReverseList.h */,
+				5BD5DC9C2067D0A70079CC05 /* ReverseList.m */,
+			);
+			path = 16_ReverseList;
+			sourceTree = "<group>";
+		};
 		5BFD629B20676F4C00B6985D /* MinNumberInRotatedArray */ = {
 			isa = PBXGroup;
 			children = (
@@ -442,6 +459,8 @@
 				5BC3E6FE2066365300E70862 /* Queue.m in Sources */,
 				5BC3E6EF20662F5800E70862 /* TwoStackQueue.h in Sources */,
 				5BD5DC6D20679B040079CC05 /* TestMinNumberInRotatedArray.m in Sources */,
+				5BD5DC9E2067D45C0079CC05 /* ReverseList.m in Sources */,
+				5BD5DCA02067D4670079CC05 /* TestReverseList.m in Sources */,
 				5BD5DC7E2067A0E80079CC05 /* TestPower.m in Sources */,
 				5BD5DC7720679D430079CC05 /* TestFibonacci.m in Sources */,
 				5BC3E6F020662F5800E70862 /* TwoStackQueue.m in Sources */,
@@ -484,6 +503,7 @@
 				5BC3E6EC20662A5900E70862 /* TwoStackQueue.m in Sources */,
 				5B893531206369E000A54952 /* main.m in Sources */,
 				5B07641920637D400007D6B0 /* PrintListReversingly.m in Sources */,
+				5BD5DC9D2067D0A70079CC05 /* ReverseList.m in Sources */,
 				5BC3E6E12064E9C200E70862 /* RebuildBinaryTree.m in Sources */,
 				5BC3E6F6206630EB00E70862 /* Queue.m in Sources */,
 				5B076416206374340007D6B0 /* 2DArraySearch.m in Sources */,
