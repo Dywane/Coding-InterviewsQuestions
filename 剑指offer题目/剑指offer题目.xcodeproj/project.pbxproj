@@ -45,10 +45,10 @@
 		5BC3E6FD2066365300E70862 /* Queue.h in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6F4206630EB00E70862 /* Queue.h */; };
 		5BC3E6FE2066365300E70862 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6F5206630EB00E70862 /* Queue.m */; };
 		5BC3E7002066366200E70862 /* TestTwoQueueStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC3E6FF2066366200E70862 /* TestTwoQueueStack.m */; };
-		B347D8EB20677544009BC3D2 /* Fibonacci.h in Sources */ = {isa = PBXBuildFile; fileRef = B3FBE11420664EAF00627ACD /* Fibonacci.h */; };
-		B347D8EC20677544009BC3D2 /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FBE11520664EAF00627ACD /* Fibonacci.m */; };
-		B347D90720677D88009BC3D2 /* TestFibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = B347D90620677D88009BC3D2 /* TestFibonacci.m */; };
-		B3FBE11620664EAF00627ACD /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FBE11520664EAF00627ACD /* Fibonacci.m */; };
+		5BD5DC6D20679B040079CC05 /* TestMinNumberInRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC6C20679B040079CC05 /* TestMinNumberInRotatedArray.m */; };
+		5BD5DC6E20679B100079CC05 /* MinNumberInRotatedArray.h in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD629C20676F7600B6985D /* MinNumberInRotatedArray.h */; };
+		5BD5DC6F20679B100079CC05 /* MinNumberInRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */; };
+		5BFD629E20676F7600B6985D /* MinNumberInRotatedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -94,9 +94,9 @@
 		5BC3E6F82066336100E70862 /* TwoQueueStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoQueueStack.h; sourceTree = "<group>"; };
 		5BC3E6F92066336100E70862 /* TwoQueueStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoQueueStack.m; sourceTree = "<group>"; };
 		5BC3E6FF2066366200E70862 /* TestTwoQueueStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTwoQueueStack.m; sourceTree = "<group>"; };
-		B347D90620677D88009BC3D2 /* TestFibonacci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFibonacci.m; sourceTree = "<group>"; };
-		B3FBE11420664EAF00627ACD /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
-		B3FBE11520664EAF00627ACD /* Fibonacci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fibonacci.m; sourceTree = "<group>"; };
+		5BD5DC6C20679B040079CC05 /* TestMinNumberInRotatedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMinNumberInRotatedArray.m; sourceTree = "<group>"; };
+		5BFD629C20676F7600B6985D /* MinNumberInRotatedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinNumberInRotatedArray.h; sourceTree = "<group>"; };
+		5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinNumberInRotatedArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,7 @@
 		5B07641F20637DE30007D6B0 /* 题目 */ = {
 			isa = PBXGroup;
 			children = (
-				B3FBE11320664D3C00627ACD /* Fibonacci */,
+				5BFD629B20676F4C00B6985D /* MinNumberInRotatedArray */,
 				5BC3E6F72066335400E70862 /* TwoQueueStack */,
 				5BC3E6E920662A2300E70862 /* TwoStackToQueue */,
 				5B07643A2064E8950007D6B0 /* RebuildBinaryTree */,
@@ -164,7 +164,7 @@
 				5B07642E2064E6B30007D6B0 /* TestPrintListReversingly.m */,
 				5BC3E6ED20662E0A00E70862 /* TestTwoStackQueue.m */,
 				5BC3E6FF2066366200E70862 /* TestTwoQueueStack.m */,
-				B347D90620677D88009BC3D2 /* TestFibonacci.m */,
+				5BD5DC6C20679B040079CC05 /* TestMinNumberInRotatedArray.m */,
 			);
 			path = "剑指Offer题目测试";
 			sourceTree = "<group>";
@@ -251,13 +251,13 @@
 			path = "二维数组查找";
 			sourceTree = "<group>";
 		};
-		B3FBE11320664D3C00627ACD /* Fibonacci */ = {
+		5BFD629B20676F4C00B6985D /* MinNumberInRotatedArray */ = {
 			isa = PBXGroup;
 			children = (
-				B3FBE11420664EAF00627ACD /* Fibonacci.h */,
-				B3FBE11520664EAF00627ACD /* Fibonacci.m */,
+				5BFD629C20676F7600B6985D /* MinNumberInRotatedArray.h */,
+				5BFD629D20676F7600B6985D /* MinNumberInRotatedArray.m */,
 			);
-			path = Fibonacci;
+			path = MinNumberInRotatedArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,35 +349,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B347D8EB20677544009BC3D2 /* Fibonacci.h in Sources */,
-				B347D8EC20677544009BC3D2 /* Fibonacci.m in Sources */,
+				5BD5DC6E20679B100079CC05 /* MinNumberInRotatedArray.h in Sources */,
+				5BD5DC6F20679B100079CC05 /* MinNumberInRotatedArray.m in Sources */,
 				5BC3E6FB2066365300E70862 /* TwoQueueStack.h in Sources */,
 				5BC3E6FC2066365300E70862 /* TwoQueueStack.m in Sources */,
-				5BC3E7002066366200E70862 /* TestTwoQueueStack.m in Sources */,
 				5BC3E6FD2066365300E70862 /* Queue.h in Sources */,
 				5BC3E6FE2066365300E70862 /* Queue.m in Sources */,
-				5BC3E6F320662F5800E70862 /* Stack.h in Sources */,
-				5BC3E6E82065027300E70862 /* Stack.m in Sources */,
-				5B0764382064E8220007D6B0 /* LinkList.h in Sources */,
-				5B0764392064E8220007D6B0 /* LinkList.m in Sources */,
 				5BC3E6EF20662F5800E70862 /* TwoStackQueue.h in Sources */,
+				5BD5DC6D20679B040079CC05 /* TestMinNumberInRotatedArray.m in Sources */,
 				5BC3E6F020662F5800E70862 /* TwoStackQueue.m in Sources */,
-				5BC3E6EE20662E0A00E70862 /* TestTwoStackQueue.m in Sources */,
+				5BC3E6F120662F5800E70862 /* RebuildBinaryTree.h in Sources */,
 				5BC3E6F220662F5800E70862 /* BinaryTree.h in Sources */,
-				5B0764422064E9340007D6B0 /* BinaryTree.m in Sources */,
-				B347D90720677D88009BC3D2 /* TestFibonacci.m in Sources */,
+				5BC3E6F320662F5800E70862 /* Stack.h in Sources */,
 				5B0764302064E8220007D6B0 /* PrintListReversingly.h in Sources */,
 				5B0764312064E8220007D6B0 /* PrintListReversingly.m in Sources */,
-				5B07642F2064E6B30007D6B0 /* TestPrintListReversingly.m in Sources */,
-				5BC3E6F120662F5800E70862 /* RebuildBinaryTree.h in Sources */,
 				5BC3E6E22064E9C200E70862 /* RebuildBinaryTree.m in Sources */,
-				5BC3E6E42064FD8900E70862 /* TestRebuildBinaryTree.m in Sources */,
+				5BC3E6EE20662E0A00E70862 /* TestTwoStackQueue.m in Sources */,
+				5BC3E7002066366200E70862 /* TestTwoQueueStack.m in Sources */,
+				5BC3E6E82065027300E70862 /* Stack.m in Sources */,
 				5B0764322064E8220007D6B0 /* 2DArraySearch.h in Sources */,
+				5BC3E6E42064FD8900E70862 /* TestRebuildBinaryTree.m in Sources */,
 				5B0764332064E8220007D6B0 /* 2DArraySearch.m in Sources */,
+				5B0764422064E9340007D6B0 /* BinaryTree.m in Sources */,
 				5B0764342064E8220007D6B0 /* Singletion.h in Sources */,
 				5B0764352064E8220007D6B0 /* Singletion.m in Sources */,
 				5B0764362064E8220007D6B0 /* duplicateNumber.h in Sources */,
 				5B0764372064E8220007D6B0 /* duplicateNumber.m in Sources */,
+				5B0764382064E8220007D6B0 /* LinkList.h in Sources */,
+				5B0764392064E8220007D6B0 /* LinkList.m in Sources */,
+				5B07642F2064E6B30007D6B0 /* TestPrintListReversingly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +385,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3FBE11620664EAF00627ACD /* Fibonacci.m in Sources */,
 				5BC3E6E72065027300E70862 /* Stack.m in Sources */,
 				5BC3E6EC20662A5900E70862 /* TwoStackQueue.m in Sources */,
 				5B893531206369E000A54952 /* main.m in Sources */,
@@ -396,6 +395,7 @@
 				5BC3E6FA2066336100E70862 /* TwoQueueStack.m in Sources */,
 				5B07641E20637D730007D6B0 /* LinkList.m in Sources */,
 				5B893539206369ED00A54952 /* Singletion.m in Sources */,
+				5BFD629E20676F7600B6985D /* MinNumberInRotatedArray.m in Sources */,
 				5B0764412064E9340007D6B0 /* BinaryTree.m in Sources */,
 				5B89353C20636C6400A54952 /* duplicateNumber.m in Sources */,
 			);
@@ -409,10 +409,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = XF4H6E7DJ8;
+				DEVELOPMENT_TEAM = 55F5T35K6E;
 				INFOPLIST_FILE = "剑指Offer题目测试/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "dywane.--Offer----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -423,10 +422,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = XF4H6E7DJ8;
+				DEVELOPMENT_TEAM = 55F5T35K6E;
 				INFOPLIST_FILE = "剑指Offer题目测试/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "dywane.--Offer----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -539,9 +537,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XF4H6E7DJ8;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				DEVELOPMENT_TEAM = 55F5T35K6E;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -550,9 +547,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XF4H6E7DJ8;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				DEVELOPMENT_TEAM = 55F5T35K6E;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
