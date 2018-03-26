@@ -48,6 +48,11 @@
 		B347D8EB20677544009BC3D2 /* Fibonacci.h in Sources */ = {isa = PBXBuildFile; fileRef = B3FBE11420664EAF00627ACD /* Fibonacci.h */; };
 		B347D8EC20677544009BC3D2 /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FBE11520664EAF00627ACD /* Fibonacci.m */; };
 		B347D90720677D88009BC3D2 /* TestFibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = B347D90620677D88009BC3D2 /* TestFibonacci.m */; };
+		B347D90B20679C31009BC3D2 /* MirrorOfBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = B347D90A20679C31009BC3D2 /* MirrorOfBinaryTree.m */; };
+		B347D90E2067A118009BC3D2 /* MirrorOfBinaryTree.h in Sources */ = {isa = PBXBuildFile; fileRef = B347D90920679C31009BC3D2 /* MirrorOfBinaryTree.h */; };
+		B347D90F2067A118009BC3D2 /* MirrorOfBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = B347D90A20679C31009BC3D2 /* MirrorOfBinaryTree.m */; };
+		B347D9102067A13F009BC3D2 /* 剑指offer题目 in Resources */ = {isa = PBXBuildFile; fileRef = 5B89352D206369E000A54952 /* 剑指offer题目 */; };
+		B347D9122067B55A009BC3D2 /* TestMirrorOfBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = B347D9112067B55A009BC3D2 /* TestMirrorOfBinaryTree.m */; };
 		B3FBE11620664EAF00627ACD /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FBE11520664EAF00627ACD /* Fibonacci.m */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +100,9 @@
 		5BC3E6F92066336100E70862 /* TwoQueueStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoQueueStack.m; sourceTree = "<group>"; };
 		5BC3E6FF2066366200E70862 /* TestTwoQueueStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTwoQueueStack.m; sourceTree = "<group>"; };
 		B347D90620677D88009BC3D2 /* TestFibonacci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFibonacci.m; sourceTree = "<group>"; };
+		B347D90920679C31009BC3D2 /* MirrorOfBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MirrorOfBinaryTree.h; sourceTree = "<group>"; };
+		B347D90A20679C31009BC3D2 /* MirrorOfBinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrorOfBinaryTree.m; sourceTree = "<group>"; };
+		B347D9112067B55A009BC3D2 /* TestMirrorOfBinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMirrorOfBinaryTree.m; sourceTree = "<group>"; };
 		B3FBE11420664EAF00627ACD /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
 		B3FBE11520664EAF00627ACD /* Fibonacci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fibonacci.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +152,7 @@
 		5B07641F20637DE30007D6B0 /* 题目 */ = {
 			isa = PBXGroup;
 			children = (
+				B347D90820679B24009BC3D2 /* MirrorOfBinaryTree */,
 				B3FBE11320664D3C00627ACD /* Fibonacci */,
 				5BC3E6F72066335400E70862 /* TwoQueueStack */,
 				5BC3E6E920662A2300E70862 /* TwoStackToQueue */,
@@ -165,6 +174,7 @@
 				5BC3E6ED20662E0A00E70862 /* TestTwoStackQueue.m */,
 				5BC3E6FF2066366200E70862 /* TestTwoQueueStack.m */,
 				B347D90620677D88009BC3D2 /* TestFibonacci.m */,
+				B347D9112067B55A009BC3D2 /* TestMirrorOfBinaryTree.m */,
 			);
 			path = "剑指Offer题目测试";
 			sourceTree = "<group>";
@@ -249,6 +259,15 @@
 				5B076415206374340007D6B0 /* 2DArraySearch.m */,
 			);
 			path = "二维数组查找";
+			sourceTree = "<group>";
+		};
+		B347D90820679B24009BC3D2 /* MirrorOfBinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				B347D90920679C31009BC3D2 /* MirrorOfBinaryTree.h */,
+				B347D90A20679C31009BC3D2 /* MirrorOfBinaryTree.m */,
+			);
+			path = MirrorOfBinaryTree;
 			sourceTree = "<group>";
 		};
 		B3FBE11320664D3C00627ACD /* Fibonacci */ = {
@@ -339,6 +358,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B347D9102067A13F009BC3D2 /* 剑指offer题目 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +369,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B347D90E2067A118009BC3D2 /* MirrorOfBinaryTree.h in Sources */,
+				B347D90F2067A118009BC3D2 /* MirrorOfBinaryTree.m in Sources */,
 				B347D8EB20677544009BC3D2 /* Fibonacci.h in Sources */,
 				B347D8EC20677544009BC3D2 /* Fibonacci.m in Sources */,
 				5BC3E6FB2066365300E70862 /* TwoQueueStack.h in Sources */,
@@ -371,6 +393,7 @@
 				5B07642F2064E6B30007D6B0 /* TestPrintListReversingly.m in Sources */,
 				5BC3E6F120662F5800E70862 /* RebuildBinaryTree.h in Sources */,
 				5BC3E6E22064E9C200E70862 /* RebuildBinaryTree.m in Sources */,
+				B347D9122067B55A009BC3D2 /* TestMirrorOfBinaryTree.m in Sources */,
 				5BC3E6E42064FD8900E70862 /* TestRebuildBinaryTree.m in Sources */,
 				5B0764322064E8220007D6B0 /* 2DArraySearch.h in Sources */,
 				5B0764332064E8220007D6B0 /* 2DArraySearch.m in Sources */,
@@ -395,6 +418,7 @@
 				5B076416206374340007D6B0 /* 2DArraySearch.m in Sources */,
 				5BC3E6FA2066336100E70862 /* TwoQueueStack.m in Sources */,
 				5B07641E20637D730007D6B0 /* LinkList.m in Sources */,
+				B347D90B20679C31009BC3D2 /* MirrorOfBinaryTree.m in Sources */,
 				5B893539206369ED00A54952 /* Singletion.m in Sources */,
 				5B0764412064E9340007D6B0 /* BinaryTree.m in Sources */,
 				5B89353C20636C6400A54952 /* duplicateNumber.m in Sources */,
