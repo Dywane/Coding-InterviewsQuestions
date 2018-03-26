@@ -33,22 +33,8 @@
     LinkList *testExample2 = [LinkList listWithArray:@[@1]];
     
     LinkList *reverseExample1 = [LinkList listWithArray:@[@5, @4, @3, @2, @1]];
-    XCTAssertTrue([self isSameList: reverseExample1 list2: [ReverseList reverseList:testExample1]]);
-    XCTAssertTrue([self isSameList: testExample2 list2: [ReverseList reverseList:testExample2]]);
-}
-
-- (BOOL)isSameList: (LinkList *)list1 list2: (LinkList *)list2 {
-    if(list1 == nil && list2 == nil) {
-        return true;
-    }
-    while(list1.next != nil && list2.next != nil) {
-        if(list1.value != list2.value) {
-            return false;
-        }
-        list1 = list1.next;
-        list2 = list2.next;
-    }
-    return list1.next == nil && list2.next == nil;
+    XCTAssertTrue([LinkList isSameList: reverseExample1 list2: [ReverseList reverseList:testExample1]]);
+    XCTAssertTrue([LinkList isSameList: testExample2 list2: [ReverseList reverseList:testExample2]]);
 }
 
 - (void)testPerformanceExample {

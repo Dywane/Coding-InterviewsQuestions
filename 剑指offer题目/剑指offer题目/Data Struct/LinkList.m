@@ -24,11 +24,38 @@
     return headNode;
 }
 
++ (BOOL)isSameList: (LinkList *)list1 list2: (LinkList *)list2 {
+    if(list1 == nil && list2 == nil) {
+        return true;
+    }
+    while(list1.next != nil && list2.next != nil) {
+        if(list1.value != list2.value) {
+            return false;
+        }
+        list1 = list1.next;
+        list2 = list2.next;
+    }
+    return list1.next == nil && list2.next == nil;
+}
+
 - (instancetype)initWithKey: (NSNumber *)key {
     if (self = [super init]) {
         self.value = key;
     }
     return self;
 }
+
+- (id)copyWithZone:(NSZone *)zone {
+    // deep copy
+    LinkList *list = [LinkList allocWithZone:zone];
+    list.value = self.value;
+    list.next = self.next;
+    if(self.next != nil) {
+        [list.next copy];
+    }
+    return list;
+}
+
+
 
 @end
