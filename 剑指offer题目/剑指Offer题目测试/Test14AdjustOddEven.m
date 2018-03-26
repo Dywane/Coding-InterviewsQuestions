@@ -9,11 +9,11 @@
 #import <XCTest/XCTest.h>
 #import "AdjustOddEven.h"
 
-@interface TestAdjustOddEven : XCTestCase
+@interface Test14AdjustOddEven : XCTestCase
 
 @end
 
-@implementation TestAdjustOddEven
+@implementation Test14AdjustOddEven
 
 - (void)setUp {
     [super setUp];

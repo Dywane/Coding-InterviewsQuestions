@@ -9,11 +9,11 @@
 #import <XCTest/XCTest.h>
 #import "Power.h"
 
-@interface TestPower : XCTestCase
+@interface Test16Power : XCTestCase
 
 @end
 
-@implementation TestPower
+@implementation Test16Power
 
 - (void)setUp {
     [super setUp];

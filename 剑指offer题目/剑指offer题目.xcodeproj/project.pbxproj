@@ -20,7 +20,7 @@
 		5B0764422064E9340007D6B0 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0764402064E9340007D6B0 /* BinaryTree.m */; };
 		5B76BB812068ED6F00EBF595 /* MergeTwoSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76BB802068ED6F00EBF595 /* MergeTwoSortedList.m */; };
 		5B76BB822068EFA800EBF595 /* MergeTwoSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76BB802068ED6F00EBF595 /* MergeTwoSortedList.m */; };
-		5B76BB842068EFDC00EBF595 /* TestMergeTwoSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76BB832068EFDC00EBF595 /* TestMergeTwoSortedList.m */; };
+		5B76BB842068EFDC00EBF595 /* Test17MergeTwoSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76BB832068EFDC00EBF595 /* Test17MergeTwoSortedList.m */; };
 		5B76BB8A2069095500EBF595 /* TestRebuildBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76BB892069095500EBF595 /* TestRebuildBinaryTree.m */; };
 		5B893531206369E000A54952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B893530206369E000A54952 /* main.m */; };
 		5B893539206369ED00A54952 /* Singletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B893538206369ED00A54952 /* Singletion.m */; };
@@ -44,16 +44,16 @@
 		5BD5DC7720679D430079CC05 /* TestFibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC7620679D430079CC05 /* TestFibonacci.m */; };
 		5BD5DC7B20679E620079CC05 /* Power.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC7A20679E620079CC05 /* Power.m */; };
 		5BD5DC7C2067A0D80079CC05 /* Power.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC7A20679E620079CC05 /* Power.m */; };
-		5BD5DC7E2067A0E80079CC05 /* TestPower.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC7D2067A0E80079CC05 /* TestPower.m */; };
+		5BD5DC7E2067A0E80079CC05 /* Test16Power.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC7D2067A0E80079CC05 /* Test16Power.m */; };
 		5BD5DC862067C2210079CC05 /* AdjustOddEven.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC852067C2210079CC05 /* AdjustOddEven.m */; };
 		5BD5DC872067C51D0079CC05 /* AdjustOddEven.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC852067C2210079CC05 /* AdjustOddEven.m */; };
-		5BD5DC892067C5330079CC05 /* TestAdjustOddEven.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC882067C5330079CC05 /* TestAdjustOddEven.m */; };
+		5BD5DC892067C5330079CC05 /* Test14AdjustOddEven.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC882067C5330079CC05 /* Test14AdjustOddEven.m */; };
 		5BD5DC8F2067CA360079CC05 /* FindListKthTail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC8E2067CA360079CC05 /* FindListKthTail.m */; };
 		5BD5DC902067CA400079CC05 /* FindListKthTail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC8E2067CA360079CC05 /* FindListKthTail.m */; };
-		5BD5DC922067CC820079CC05 /* TestFindListKthTail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC912067CC820079CC05 /* TestFindListKthTail.m */; };
+		5BD5DC922067CC820079CC05 /* Test15FindListKthTail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC912067CC820079CC05 /* Test15FindListKthTail.m */; };
 		5BD5DC962067CDD60079CC05 /* FindListMiddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC952067CDD60079CC05 /* FindListMiddleNode.m */; };
 		5BD5DC972067CF9A0079CC05 /* FindListMiddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC952067CDD60079CC05 /* FindListMiddleNode.m */; };
-		5BD5DC992067CFA80079CC05 /* TestFindListMiddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC982067CFA80079CC05 /* TestFindListMiddleNode.m */; };
+		5BD5DC992067CFA80079CC05 /* Test15_1FindListMiddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC982067CFA80079CC05 /* Test15_1FindListMiddleNode.m */; };
 		5BD5DC9D2067D0A70079CC05 /* ReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC9C2067D0A70079CC05 /* ReverseList.m */; };
 		5BD5DC9E2067D45C0079CC05 /* ReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC9C2067D0A70079CC05 /* ReverseList.m */; };
 		5BD5DCA02067D4670079CC05 /* TestReverseList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD5DC9F2067D4670079CC05 /* TestReverseList.m */; };
@@ -92,7 +92,7 @@
 		5B0764402064E9340007D6B0 /* BinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
 		5B76BB7F2068ED6F00EBF595 /* MergeTwoSortedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeTwoSortedList.h; sourceTree = "<group>"; };
 		5B76BB802068ED6F00EBF595 /* MergeTwoSortedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeTwoSortedList.m; sourceTree = "<group>"; };
-		5B76BB832068EFDC00EBF595 /* TestMergeTwoSortedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMergeTwoSortedList.m; sourceTree = "<group>"; };
+		5B76BB832068EFDC00EBF595 /* Test17MergeTwoSortedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test17MergeTwoSortedList.m; sourceTree = "<group>"; };
 		5B76BB892069095500EBF595 /* TestRebuildBinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRebuildBinaryTree.m; sourceTree = "<group>"; };
 		5B89352D206369E000A54952 /* 剑指offer题目 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指offer题目"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B893530206369E000A54952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -118,16 +118,16 @@
 		5BD5DC7620679D430079CC05 /* TestFibonacci.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFibonacci.m; sourceTree = "<group>"; };
 		5BD5DC7920679E620079CC05 /* Power.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Power.h; sourceTree = "<group>"; };
 		5BD5DC7A20679E620079CC05 /* Power.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power.m; sourceTree = "<group>"; };
-		5BD5DC7D2067A0E80079CC05 /* TestPower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPower.m; sourceTree = "<group>"; };
+		5BD5DC7D2067A0E80079CC05 /* Test16Power.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test16Power.m; sourceTree = "<group>"; };
 		5BD5DC842067C2210079CC05 /* AdjustOddEven.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdjustOddEven.h; sourceTree = "<group>"; };
 		5BD5DC852067C2210079CC05 /* AdjustOddEven.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdjustOddEven.m; sourceTree = "<group>"; };
-		5BD5DC882067C5330079CC05 /* TestAdjustOddEven.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAdjustOddEven.m; sourceTree = "<group>"; };
+		5BD5DC882067C5330079CC05 /* Test14AdjustOddEven.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test14AdjustOddEven.m; sourceTree = "<group>"; };
 		5BD5DC8D2067CA360079CC05 /* FindListKthTail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindListKthTail.h; sourceTree = "<group>"; };
 		5BD5DC8E2067CA360079CC05 /* FindListKthTail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindListKthTail.m; sourceTree = "<group>"; };
-		5BD5DC912067CC820079CC05 /* TestFindListKthTail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFindListKthTail.m; sourceTree = "<group>"; };
+		5BD5DC912067CC820079CC05 /* Test15FindListKthTail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test15FindListKthTail.m; sourceTree = "<group>"; };
 		5BD5DC942067CDD60079CC05 /* FindListMiddleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindListMiddleNode.h; sourceTree = "<group>"; };
 		5BD5DC952067CDD60079CC05 /* FindListMiddleNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindListMiddleNode.m; sourceTree = "<group>"; };
-		5BD5DC982067CFA80079CC05 /* TestFindListMiddleNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestFindListMiddleNode.m; sourceTree = "<group>"; };
+		5BD5DC982067CFA80079CC05 /* Test15_1FindListMiddleNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test15_1FindListMiddleNode.m; sourceTree = "<group>"; };
 		5BD5DC9B2067D0A70079CC05 /* ReverseList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseList.h; sourceTree = "<group>"; };
 		5BD5DC9C2067D0A70079CC05 /* ReverseList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseList.m; sourceTree = "<group>"; };
 		5BD5DC9F2067D4670079CC05 /* TestReverseList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestReverseList.m; sourceTree = "<group>"; };
@@ -216,12 +216,12 @@
 				5BC3E6FF2066366200E70862 /* TestTwoQueueStack.m */,
 				5BD5DC6C20679B040079CC05 /* TestMinNumberInRotatedArray.m */,
 				5BD5DC7620679D430079CC05 /* TestFibonacci.m */,
-				5BD5DC7D2067A0E80079CC05 /* TestPower.m */,
-				5BD5DC882067C5330079CC05 /* TestAdjustOddEven.m */,
-				5BD5DC912067CC820079CC05 /* TestFindListKthTail.m */,
-				5BD5DC982067CFA80079CC05 /* TestFindListMiddleNode.m */,
+				5BD5DC7D2067A0E80079CC05 /* Test16Power.m */,
+				5BD5DC882067C5330079CC05 /* Test14AdjustOddEven.m */,
+				5BD5DC912067CC820079CC05 /* Test15FindListKthTail.m */,
+				5BD5DC982067CFA80079CC05 /* Test15_1FindListMiddleNode.m */,
 				5BD5DC9F2067D4670079CC05 /* TestReverseList.m */,
-				5B76BB832068EFDC00EBF595 /* TestMergeTwoSortedList.m */,
+				5B76BB832068EFDC00EBF595 /* Test17MergeTwoSortedList.m */,
 				5B76BB892069095500EBF595 /* TestRebuildBinaryTree.m */,
 				B347D9112067B55A009BC3D2 /* TestMirrorOfBinaryTree.m */,
 				B383934B2068F2EF009D6FED /* TestPrintfBinaryTree.m */,
@@ -499,10 +499,10 @@
 				5BD5DC6D20679B040079CC05 /* TestMinNumberInRotatedArray.m in Sources */,
 				5BD5DC9E2067D45C0079CC05 /* ReverseList.m in Sources */,
 				5BD5DCA02067D4670079CC05 /* TestReverseList.m in Sources */,
-				5BD5DC7E2067A0E80079CC05 /* TestPower.m in Sources */,
+				5BD5DC7E2067A0E80079CC05 /* Test16Power.m in Sources */,
 				5BD5DC7720679D430079CC05 /* TestFibonacci.m in Sources */,
 				5BC3E6F020662F5800E70862 /* TwoStackQueue.m in Sources */,
-				5B76BB842068EFDC00EBF595 /* TestMergeTwoSortedList.m in Sources */,
+				5B76BB842068EFDC00EBF595 /* Test17MergeTwoSortedList.m in Sources */,
 				5B0764312064E8220007D6B0 /* PrintListReversingly.m in Sources */,
 				5BD5DC872067C51D0079CC05 /* AdjustOddEven.m in Sources */,
 				5BD5DC7C2067A0D80079CC05 /* Power.m in Sources */,
@@ -512,13 +512,13 @@
 				5BC3E7002066366200E70862 /* TestTwoQueueStack.m in Sources */,
 				5BC3E6E82065027300E70862 /* Stack.m in Sources */,
 				B347D9122067B55A009BC3D2 /* TestMirrorOfBinaryTree.m in Sources */,
-				5BD5DC892067C5330079CC05 /* TestAdjustOddEven.m in Sources */,
+				5BD5DC892067C5330079CC05 /* Test14AdjustOddEven.m in Sources */,
 				5BD5DC902067CA400079CC05 /* FindListKthTail.m in Sources */,
-				5BD5DC992067CFA80079CC05 /* TestFindListMiddleNode.m in Sources */,
+				5BD5DC992067CFA80079CC05 /* Test15_1FindListMiddleNode.m in Sources */,
 				5B0764332064E8220007D6B0 /* 2DArraySearch.m in Sources */,
 				5B0764422064E9340007D6B0 /* BinaryTree.m in Sources */,
 				5B0764352064E8220007D6B0 /* Singletion.m in Sources */,
-				5BD5DC922067CC820079CC05 /* TestFindListKthTail.m in Sources */,
+				5BD5DC922067CC820079CC05 /* Test15FindListKthTail.m in Sources */,
 				5B76BB822068EFA800EBF595 /* MergeTwoSortedList.m in Sources */,
 				5BD5DC972067CF9A0079CC05 /* FindListMiddleNode.m in Sources */,
 				5B0764372064E8220007D6B0 /* duplicateNumber.m in Sources */,

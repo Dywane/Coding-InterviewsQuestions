@@ -11,11 +11,11 @@
 #import "LinkList.h"
 #import "MergeTwoSortedList.h"
 
-@interface TestMergeTwoSortedList : XCTestCase
+@interface Test17MergeTwoSortedList : XCTestCase
 
 @end
 
-@implementation TestMergeTwoSortedList
+@implementation Test17MergeTwoSortedList
 
 - (void)setUp {
     [super setUp];

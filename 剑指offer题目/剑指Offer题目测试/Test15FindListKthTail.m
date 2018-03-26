@@ -1,5 +1,5 @@
 //
-//  TestFindListMiddleNode.m
+//  TestFindListKthTail.m
 //  剑指Offer题目测试
 //
 //  Created by duwei on 2018/3/25.
@@ -7,14 +7,14 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "FindListKthTail.h"
 #import "LinkList.h"
-#import "FindListMiddleNode.h"
 
-@interface TestFindListMiddleNode : XCTestCase
+@interface Test15FindListKthTail : XCTestCase
 
 @end
 
-@implementation TestFindListMiddleNode
+@implementation Test15FindListKthTail
 
 - (void)setUp {
     [super setUp];
@@ -29,12 +29,13 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    LinkList *testExample1 = [LinkList listWithArray:@[@1, @2, @3, @4, @5, @6]];
-    LinkList *testExample2 = [LinkList listWithArray:@[@1, @2, @3, @4, @5]];
-    LinkList *testExample3 = [LinkList listWithArray:@[@1]];
-    XCTAssertEqualObjects(@4, [FindListMiddleNode findMiddleNodeOfList:testExample1]);
-    XCTAssertEqualObjects(@3, [FindListMiddleNode findMiddleNodeOfList:testExample2]);
-    XCTAssertEqualObjects(@1, [FindListMiddleNode findMiddleNodeOfList:testExample3]);
+    LinkList *testExample = [LinkList listWithArray:@[@1, @2, @3, @4, @5, @6]];
+    XCTAssertEqualObjects(@6, [FindListKthTail findKthTail:testExample k:1]);
+    XCTAssertEqualObjects(@3, [FindListKthTail findKthTail:testExample k:4]);
+    XCTAssertEqualObjects(@1, [FindListKthTail findKthTail:testExample k:6]);
+    XCTAssertNil([FindListKthTail findKthTail:testExample k:7]);
+    XCTAssertNil([FindListKthTail findKthTail:testExample k:0]);
+    XCTAssertNil([FindListKthTail findKthTail:nil k:7]);
 }
 
 - (void)testPerformanceExample {
