@@ -10,6 +10,14 @@
 #import "BinaryTree.h"
 @implementation MirrorOfBinaryTree
 
+/*
+ 输入一个二叉树
+ 该函数输出它的镜像
+ 镜像eg:
+          8            ->     8
+        6   10             10   6
+      5  7 9  11         11  9 7 5
+ */
 + (BinaryTree *) mirrorRecursivelyWithTreeNode:(BinaryTree *)treeNode{
     
     if (!treeNode || (!treeNode.left && !treeNode.right)) {

@@ -10,11 +10,11 @@
 
 @interface Queue : NSObject
 
-@property (strong, nonatomic, readonly) NSNumber* head;
+@property (strong, nonatomic, readonly) id head;
 @property (assign, nonatomic, readonly) NSUInteger length;
 @property (assign, nonatomic, readonly) BOOL isEmpty;
 
 - (NSNumber *)dequeue;
-- (void)enqueue: (NSNumber *)value;
+- (void)enqueue: (id)value;
 
 @end
