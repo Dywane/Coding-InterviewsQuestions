@@ -23,11 +23,11 @@
     return self;
 }
 
-- (void)enqueue:(NSNumber *)value {
+- (void)enqueue:(id)value {
     [_queueArray addObject:value];
 }
 
-- (NSNumber *)dequeue {
+- (id)dequeue {
     if(self.isEmpty) {
         NSLog(@"queue empty");
         return nil;
@@ -46,7 +46,7 @@
     return _queueArray.count;
 }
 
-- (NSNumber *)head {
+- (id)head {
     return _queueArray.firstObject;
 }
 
