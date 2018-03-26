@@ -22,7 +22,6 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
-    
     _preorder = [NSArray arrayWithObjects:@1, @2, @4, @7, @3, @5, @6, @8, nil];
     _inorder = [NSArray arrayWithObjects:@4, @7, @2, @1, @5, @3, @8, @6, nil];
 }
