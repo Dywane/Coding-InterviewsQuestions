@@ -22,6 +22,9 @@
 		5B76BB822068EFA800EBF595 /* MergeTwoSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76BB802068ED6F00EBF595 /* MergeTwoSortedList.m */; };
 		5B76BB842068EFDC00EBF595 /* Test17MergeTwoSortedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76BB832068EFDC00EBF595 /* Test17MergeTwoSortedList.m */; };
 		5B76BB8A2069095500EBF595 /* TestRebuildBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76BB892069095500EBF595 /* TestRebuildBinaryTree.m */; };
+		5B76BB8E20690F7A00EBF595 /* IsSubTreeOfATree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76BB8D20690F7A00EBF595 /* IsSubTreeOfATree.m */; };
+		5B76BB9020691B3A00EBF595 /* Test_18IsSubTreeOfATree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76BB8F20691B3A00EBF595 /* Test_18IsSubTreeOfATree.m */; };
+		5B76BB9120691D3000EBF595 /* IsSubTreeOfATree.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B76BB8D20690F7A00EBF595 /* IsSubTreeOfATree.m */; };
 		5B893531206369E000A54952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B893530206369E000A54952 /* main.m */; };
 		5B893539206369ED00A54952 /* Singletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B893538206369ED00A54952 /* Singletion.m */; };
 		5B89353C20636C6400A54952 /* duplicateNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B89353B20636C6400A54952 /* duplicateNumber.m */; };
@@ -94,6 +97,9 @@
 		5B76BB802068ED6F00EBF595 /* MergeTwoSortedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeTwoSortedList.m; sourceTree = "<group>"; };
 		5B76BB832068EFDC00EBF595 /* Test17MergeTwoSortedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test17MergeTwoSortedList.m; sourceTree = "<group>"; };
 		5B76BB892069095500EBF595 /* TestRebuildBinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRebuildBinaryTree.m; sourceTree = "<group>"; };
+		5B76BB8C20690F7A00EBF595 /* IsSubTreeOfATree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsSubTreeOfATree.h; sourceTree = "<group>"; };
+		5B76BB8D20690F7A00EBF595 /* IsSubTreeOfATree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsSubTreeOfATree.m; sourceTree = "<group>"; };
+		5B76BB8F20691B3A00EBF595 /* Test_18IsSubTreeOfATree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_18IsSubTreeOfATree.m; sourceTree = "<group>"; };
 		5B89352D206369E000A54952 /* 剑指offer题目 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "剑指offer题目"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B893530206369E000A54952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B893537206369ED00A54952 /* Singletion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singletion.h; sourceTree = "<group>"; };
@@ -186,6 +192,7 @@
 		5B07641F20637DE30007D6B0 /* 题目 */ = {
 			isa = PBXGroup;
 			children = (
+				5B76BB8B20690F5900EBF595 /* 18_IsSubTreeOfATree */,
 				5B76BB7E2068ED5200EBF595 /* 17_MergeTwoSortedList */,
 				5BD5DC9A2067D0950079CC05 /* 16_ReverseList */,
 				5BD5DC932067CDBA0079CC05 /* 15.1_FindListMiddleNode */,
@@ -225,6 +232,7 @@
 				5B76BB892069095500EBF595 /* TestRebuildBinaryTree.m */,
 				B347D9112067B55A009BC3D2 /* TestMirrorOfBinaryTree.m */,
 				B383934B2068F2EF009D6FED /* TestPrintfBinaryTree.m */,
+				5B76BB8F20691B3A00EBF595 /* Test_18IsSubTreeOfATree.m */,
 			);
 			path = "剑指Offer题目测试";
 			sourceTree = "<group>";
@@ -245,6 +253,15 @@
 				5B76BB802068ED6F00EBF595 /* MergeTwoSortedList.m */,
 			);
 			path = 17_MergeTwoSortedList;
+			sourceTree = "<group>";
+		};
+		5B76BB8B20690F5900EBF595 /* 18_IsSubTreeOfATree */ = {
+			isa = PBXGroup;
+			children = (
+				5B76BB8C20690F7A00EBF595 /* IsSubTreeOfATree.h */,
+				5B76BB8D20690F7A00EBF595 /* IsSubTreeOfATree.m */,
+			);
+			path = 18_IsSubTreeOfATree;
 			sourceTree = "<group>";
 		};
 		5B893524206369E000A54952 = {
@@ -500,12 +517,14 @@
 				5BD5DC9E2067D45C0079CC05 /* ReverseList.m in Sources */,
 				5BD5DCA02067D4670079CC05 /* TestReverseList.m in Sources */,
 				5BD5DC7E2067A0E80079CC05 /* Test16Power.m in Sources */,
+				5B76BB9120691D3000EBF595 /* IsSubTreeOfATree.m in Sources */,
 				5BD5DC7720679D430079CC05 /* TestFibonacci.m in Sources */,
 				5BC3E6F020662F5800E70862 /* TwoStackQueue.m in Sources */,
 				5B76BB842068EFDC00EBF595 /* Test17MergeTwoSortedList.m in Sources */,
 				5B0764312064E8220007D6B0 /* PrintListReversingly.m in Sources */,
 				5BD5DC872067C51D0079CC05 /* AdjustOddEven.m in Sources */,
 				5BD5DC7C2067A0D80079CC05 /* Power.m in Sources */,
+				5B76BB9020691B3A00EBF595 /* Test_18IsSubTreeOfATree.m in Sources */,
 				5BC3E6E22064E9C200E70862 /* RebuildBinaryTree.m in Sources */,
 				5BC3E6EE20662E0A00E70862 /* TestTwoStackQueue.m in Sources */,
 				5BD5DC7520679D350079CC05 /* Fibonacci.m in Sources */,
@@ -550,6 +569,7 @@
 				5B893539206369ED00A54952 /* Singletion.m in Sources */,
 				5BD5DC7420679D240079CC05 /* Fibonacci.m in Sources */,
 				5BFD629E20676F7600B6985D /* MinNumberInRotatedArray.m in Sources */,
+				5B76BB8E20690F7A00EBF595 /* IsSubTreeOfATree.m in Sources */,
 				5B0764412064E9340007D6B0 /* BinaryTree.m in Sources */,
 				5B89353C20636C6400A54952 /* duplicateNumber.m in Sources */,
 				5BD5DC8F2067CA360079CC05 /* FindListKthTail.m in Sources */,

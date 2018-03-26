@@ -10,6 +10,8 @@
 
 @implementation BinaryTree
 
+
+
 + (BinaryTree *)treeNodeWithNumber: (NSNumber *)number {
     BinaryTree *node = [[BinaryTree alloc] init];
     node.value = number;
